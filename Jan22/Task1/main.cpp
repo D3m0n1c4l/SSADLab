@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main()
+{
+    int time;
+    std::cin >> time;
+    const int hours = time / 3600;
+    time %= 3600;
+    const int minutes = time / 60;
+    time %= 60;
+    const int seconds = time;
+    std::cout << hours << ":" << minutes << ":" << seconds << std::endl;
+}
