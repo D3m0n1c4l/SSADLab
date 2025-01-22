@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+int function()
 {
     int time;
     std::cin >> time;
@@ -10,4 +10,6 @@ int main()
     time %= 60;
     const int seconds = time;
     std::cout << hours << ":" << minutes << ":" << seconds << std::endl;
+
+    return 0;
 }
