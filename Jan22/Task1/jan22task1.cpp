@@ -1,6 +1,6 @@
 #include <iostream>
 
-int function()
+int jan22task1()
 {
     int time;
     std::cin >> time;

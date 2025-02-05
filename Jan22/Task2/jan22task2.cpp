@@ -13,7 +13,7 @@ void swap2(int& a, int& b) {
     a = temp;
 }
 
-int function() {
+int jan22task2() {
     int a1 = 5;
     int b1 = 10;
     int a2 = 5;
