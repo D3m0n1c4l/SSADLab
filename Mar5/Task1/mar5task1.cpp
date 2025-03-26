@@ -148,18 +148,15 @@ int main() {
     }
     std::cout << std::endl;
 
-    // Push more elements to check circular behavior
     cb.push(6);
     cb.push(7);
 
-    // Use iterator to print buffer again
     std::cout << "After pushing more elements: ";
     for (auto it = cb.begin(); it != cb.end(); ++it) {
         std::cout << *it << " ";
     }
     std::cout << std::endl;
 
-    // Pop elements from the buffer
     std::cout << "Popped: " << cb.pop() << std::endl;
     std::cout << "Popped: " << cb.pop() << std::endl;
 
